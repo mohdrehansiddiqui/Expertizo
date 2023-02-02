@@ -1,0 +1,322 @@
+    nav.navbar {
+        background-color: #fff !important;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    .nav-item a.nav-link:hover,
+    .nav-item a.active {
+        color: #0d6efd !important;
+        text-decoration: underline;
+    }
+    
+    .bg-img {
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 95vh;
+    }
+    
+    .bg-img .overlay {
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .8;
+        background: #1C1D21;
+        max-width: 100%;
+        height: 95vh;
+    }
+    
+    .carousel-caption {
+        position: relative;
+        top: 18vh;
+        display: flex;
+        display: block;
+        margin: 0 auto;
+        max-width: 65% !important;
+    }
+    
+    div.row>div.onHover:hover {
+        background-color: #303236;
+        cursor: pointer;
+        border-radius: 14px;
+    }
+    /* 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 720px;
+}
+
+.grid-item {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-item img {
+    display: flex;
+} */
+    
+    .badge h1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .align-items-center {
+        margin-top: 2%;
+    }
+    
+    .img2 {
+        margin-top: 1%;
+        display: flex;
+    }
+    
+    .h31 {
+        color: #1C1D21;
+        align-items: center !important;
+        justify-content: center !important;
+        display: flex !important;
+    }
+    
+    .carousel-caption {
+        z-index: 1;
+    }
+    
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .onHover {
+        background-color: rgb(241, 241, 241);
+        padding: 50px;
+    }
+    
+    div.container h3.badge1 {
+        font-size: 2rem;
+    }
+    
+    .card {
+        max-width: 100%;
+        width: 100%;
+    }
+    
+    .r2 {
+        width: 94%;
+    }
+    
+    i {
+        color: #6195FF;
+    }
+    
+    .r2 {
+        background-color: rgb(241, 241, 241);
+        padding: 10px;
+    }
+    
+    .r3:hover {
+        background-color: #ff0000;
+    }
+    
+    .pinline1 {
+        display: inline-block;
+    }
+    
+    .checkicon {
+        background-color: #FAFAFA;
+        border-radius: 50%;
+        border: 2px solid #6195FF;
+        padding: 6px;
+    }
+    
+    .pnew {
+        display: inline-block;
+    }
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: #FAFAFA;
+        padding: 30px;
+        border-radius: 5px;
+    }
+    
+    .grid-item {
+        margin-left: 30px;
+    }
+    
+    .hrnew1:after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 40px;
+        background-color: #6195FF;
+        margin-top: 20px;
+    }
+    
+    .hrnew2::after {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 40px;
+        background-color: #6195FF;
+        margin-top: 20px;
+    }
+    
+    .text-center .hrnew2:after {
+        margin: 20px auto 0px;
+    }
+    
+    .checkicon2 {
+        background-color: #FAFAFA;
+        border-radius: 50%;
+        border: 2px solid #6195FF;
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        text-align: center;
+        display: table-cell;
+        overflow: hidden;
+        vertical-align: middle !important;
+        padding-top: 60px;
+    }
+    
+    .checkicon2>h6 {
+        font-size: 0.95em !important;
+        vertical-align: middle;
+        font-weight: 700;
+    }
+    
+    .card-text {
+        text-align: center;
+    }
+    
+    .btnnew12 {
+        display: inherit;
+        background-color: white;
+        border: 2px solid #6093FB;
+        width: 37%;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+        font-size: 1.2em;
+    }
+    
+    .menwithcomp {
+        display: inline-block;
+    }
+    
+    .vetormen1 {
+        width: 5%;
+        display: inline;
+    }
+    
+    .grid-container2 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        position: relative;
+        top: 40vh;
+    }
+    
+    .grid-item2 {
+        font-size: 1.2rem;
+        color: white;
+    }
+    
+    .bg-img2 {
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        z-index: -1;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 60vh;
+    }
+    
+    .bg-img2 .overlay2 {
+        position: relative;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .8;
+        background: #1C1D21;
+        max-width: 100%;
+        height: 60vh;
+    }
+    
+    .overlaygrid {
+        position: absolute;
+        margin-top: 20vh !important;
+    }
+    
+    .overlaygrid>div>p {
+        color: white;
+        font-size: 1em;
+        margin-left: 5%;
+    }
+    
+    img.rounded-img-client {
+        width: 80px;
+        border-radius: 50%;
+    }
+    
+    .list-group,
+    .list-group-item {
+        background: transparent !important;
+        border: none !important;
+    }
+    
+    h5.overlaytxt {
+        color: white;
+    }
+    
+    h5.overlaytxt>span {
+        color: #6094FD !important;
+        font-size: 0.75em !important;
+    }
+    
+    .saad1 {
+        width: 200px;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .logoexpertizo2 {
+        width: 20%;
+    }
+    
+    .colorlib {
+        color: #6093FB;
+        text-decoration: none;
+    }
+    
+    .pcolo1 {
+        color: white;
+    }
+    
+    footer {
+        text-align: center;
+    }
+    
+    .bootcam1:hover {
+        background-color: #1C1D21;
+        color: rgb(184, 184, 184);
+        cursor: pointer;
+    }
